@@ -1,0 +1,129 @@
+
+/* Welcome page */
+
+.welcomeText{
+    color: gray;
+    font-family: 'Itim', cursive;
+    margin-top: 25px;
+}
+a{
+    font-family: 'Itim', cursive;
+}
+.welcomeBtn{
+    margin-top: 20px;
+}
+.btn{
+    background-color: #6912a7;
+    border-color: #6912a7;
+}
+.btn:hover{
+    background-color: #3D0669;
+    border-color: #3D0669;
+}
+@media (max-width: 768px ) {
+    .img{
+       width: 430px;
+    }
+    .imgDiv{
+        padding-left: 0px;
+    }
+    .Data{
+        width: 313px !important;
+        margin-left: 32px !important;
+    }
+    #pizzaName{
+        margin-left: -229px !important;
+    }
+    #price{
+      margin-left: -275px !important;
+    }
+    #createBtn {
+        margin-left: 247px !important;
+        margin-top: -13px !important;
+        margin-bottom: 13px !important;
+    }
+}
+/* End of welcome page */
+
+/* Start of pizzas secetion */
+.pizzaImage{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.pizzaContent{
+    background-color: #e5e5e5;
+    padding: 19px;
+    margin-bottom: 25px;
+    min-height: 331px;
+
+}
+.ingredient {
+    list-style: none;
+    margin-left: -43px;
+    min-height: 92px;
+}
+.ingredient li::before {
+    content: "";
+    background-image: url(../img/pizza-piece.png);
+    background-size: contain;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    position: relative;
+    top: 0.1rem;
+    margin-right: 0.2rem;
+}
+.pizzaName{
+    margin-top:10px ;
+}
+.alertMessage{
+    position: fixed;
+    margin-top: 469px;
+    display: none;
+}
+.DangerMessage{
+    position: fixed;
+    margin-top: 469px;
+    display: none;
+}
+/* End of section Pizza */
+
+/* Create section */
+.CreateContent {
+    background-color: #e5e5e5;
+    border-radius: 2%;
+}
+.Createimage{
+    width: 184px;
+    padding: 10px;
+}
+.Data{
+    width: 450px;
+    margin-left: 32px;
+}
+label{
+    font-weight: bold;
+}
+#createBtn{
+    margin-left: 387px;
+    margin-top: 21px;
+    margin-bottom: 27px;
+}
+.CreateForm{
+    padding: 25px;
+}
+.checkBoxes{
+    margin-left: 28px;
+}
+#pizzaName{
+    margin-left: -360px;
+}
+#price{
+    margin-left: -402px;
+}
+/* noOrders */
+.noOrderText{
+    font-size: 2.575rem;
+    margin-top: 45px;
+}
